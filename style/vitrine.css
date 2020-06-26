@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'nasalization';
-    src: url('asset4/nasalization');
+    src: url('../asset4/nasalization-rg.ttf');
 }
 .align {  
     display: flex;
@@ -31,8 +31,9 @@ main {
 }
 header {
 
-    background-image: url('asset4/texture-header.jpg');
+    background-image: url('../asset4/texture-header.jpg');
     height: 150px;
+    text-align: center;
 }
 .navigation {
     display: inline-block;
@@ -49,4 +50,7 @@ a:hover{
 a:active{
     color:#17c1ff ;
     font-style: bold;
+}
+footer {
+
 }
