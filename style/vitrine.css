@@ -55,8 +55,15 @@ a:active{
     color:white; ;
     font-style: bold;
 }
+
 footer {
 
+}
+.main2 {
+    src:'asset4/2.jpg';
+    float: left;
+    src:'asset4/22ee25f8e3_50030449_fotolia-25828130-s-page42.jpg';
+   float: right;
 }
 p{
     margin-bottom: 10px;
@@ -67,4 +74,19 @@ p{
 
 h2{
     text-shadow: #e6e6e6;
+}
+
+table {
+    max-width: 810px;
+    border: medium solid #000000;
+    width: 50%;
+}
+    td,th {
+    border: thin solid #6495ed;
+    width: 50%;
+}
+h2 {
+    color: black;
+    font-style: bold;
+    text-align: center;
 }
