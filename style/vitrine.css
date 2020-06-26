@@ -8,19 +8,28 @@
     src: url('../asset4/nasalization-rg.ttf');
 }
 .align {  
-    display: flex;
+   width: 100% ;
+   text-align: center;
 }
 header {
-margin: auto;
 font-family: 'nasalization';
-font-size: 40px;
 color: #27d1ff;
+text-align: center;
+height: 150px;
+font-weight: bold;
+width: 100%;
+background-image: url('../asset4/texture-header.jpg');
+height: 150px;
 text-align: center;
 }
 body
 {
-    background-color: #f2f2f2;
     font-family: "opensans";
+    font-size: 14px;
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 810px;
+    margin: auto;
 
 }
 main {
@@ -29,12 +38,7 @@ main {
     text-align: center;
     word-wrap: normal;
 }
-header {
 
-    background-image: url('../asset4/texture-header.jpg');
-    height: 150px;
-    text-align: center;
-}
 .navigation {
     display: inline-block;
     background-color: #2e1f30;
@@ -43,14 +47,24 @@ header {
     text-align: right;
     color: white;
 }
-a:hover{
-    color: #17c1ff;
+a {
+    color: white;
 }
 
 a:active{
-    color:#17c1ff ;
+    color:white; ;
     font-style: bold;
 }
 footer {
 
+}
+p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2{
+    text-shadow: #e6e6e6;
 }
