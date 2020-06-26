@@ -21,6 +21,7 @@ body
 {
     background-color: #f2f2f2;
     font-family: "opensans";
+
 }
 main {
     max-width: 810px;
@@ -30,7 +31,7 @@ main {
 }
 header {
 
-    background-image: url(asset4/texture-header.jpg);
+    background-image: url('asset4/texture-header.jpg');
     height: 150px;
 }
 .navigation {
