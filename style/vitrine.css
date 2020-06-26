@@ -10,7 +10,7 @@
 .align {  
     display: flex;
 }
-header h1 {
+header {
 margin: auto;
 font-family: 'nasalization';
 font-size: 40px;
